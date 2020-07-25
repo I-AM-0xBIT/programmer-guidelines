@@ -61,9 +61,9 @@ Example
 * I use block comments to show purpose of a particular code like what operation is going on.
 
 ```kt
-/** Add the template to template loader  */
-templateLoader.addView(template)
-/** Add the template to template loader  */
+    /** Add the template to template loader  */
+    templateLoader.addView(template)
+    /** Add the template to template loader  */
 ```
 
 ##### Line
