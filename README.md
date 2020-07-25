@@ -22,9 +22,9 @@
 
 ##### I'll explain later on why i prefer these choices
 
-* Block comments - HEX value - #93B9C3
-* KDoc comments - HEX value - #3DDC84
-* Line comments - HEX value - #616161
+* Block comments - HEX value - ![#93B9C3](https://via.placeholder.com/15/93B9C3/000000?text=+) `#93B9C3`
+* KDoc comments  - HEX value - ![#3DDC84](https://via.placeholder.com/15/3DDC84/000000?text=+) `#3DDC84`
+* Line comments  - HEX value - ![#616161](https://via.placeholder.com/15/616161/000000?text=+) `#616161`
 
 ## Coding Style
 
