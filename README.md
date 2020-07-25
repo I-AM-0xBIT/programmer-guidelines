@@ -23,7 +23,7 @@
 ##### I'll explain later on why i prefer these choices
 
 * Block comments - HEX value - ![#93B9C3](https://via.placeholder.com/15/93B9C3/000000?text=+) `#93B9C3`
-* KDoc comments  - HEX value - ![#3DDC84](https://via.placeholder.com/15/3DDC84/000000?text=+) `#3DDC84`
+* Doc comments  - HEX value - ![#3DDC84](https://via.placeholder.com/15/3DDC84/000000?text=+) `#3DDC84`
 * Line comments  - HEX value - ![#616161](https://via.placeholder.com/15/616161/000000?text=+) `#616161`
 
 ## Coding Style
@@ -35,3 +35,37 @@
 * Less parameters are always favoured when creating a function. 
 * If multiple values are to be passed depending on the language or framework choose a proper object to pass it.
 * Eg - Using bundle to pass data in Android
+
+#### Comments
+
+##### Doc
+
+* Documentation comments are mostly used to show what a particular method's function is, their parameters and the return type.
+
+Example
+
+```php
+    /**
+    * Method to do abc on request and return xyz as response
+    * 
+    * @param Request $requestObject
+    * @return \Illuminate\Contracts\Routing\ResponseFactory|\Illuminate\Http\Response
+    */
+    public function Foo(Request $requestObject) {
+      ...
+    }
+```
+
+##### Block
+
+* I use block comments to show purpose of a particular code like what operation is going on.
+
+```kt
+/** Add the template to template loader  */
+templateLoader.addView(template)
+/** Add the template to template loader  */
+```
+
+##### Line
+
+* I don't use line comments except to comment out code.
