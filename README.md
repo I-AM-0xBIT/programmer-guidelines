@@ -69,3 +69,8 @@ Example
 ##### Line
 
 * I don't use line comments except to comment out code.
+
+
+## Design Patterns
+
+* I feel like design patterns are very important when developing production code that mainly involves CRUD. In Laravel a repository design pattern is widely used whereas in Android MVVM is what google recommends
